@@ -1,6 +1,20 @@
+.popup__content_content_info {
+    width: 430px;
+    max-width: 430px;
+    min-height: 100px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 34px 36px;
+}
 
 @media screen and (max-width: 568px) {
     .popup__content_content_info {
-        max-width: calc(100% - 40px);
+        width: 280px;
+        max-width: 280px;
+        height: 419px;
+        padding: 25px 20px;
     }
 }

@@ -1,7 +1,13 @@
 .popup__info-description {
     margin-left: 0;
-    max-width: 320px;
+    max-width: 225px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+@media screen and (max-width: 568px) {
+    .popup__info-description {
+        max-width: 141px;
+    }
 }
